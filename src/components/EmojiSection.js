@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AnswerSection from "./AnswerSection";
+import "./answerSection.css"
 
 export default function EmojiSetions() {
   const [emoji, setEmoji] = useState("");
@@ -24,6 +25,7 @@ export default function EmojiSetions() {
         onChange={(e) => onEmojiChange(e)}
         value={emoji}
         style={{ margin: "1rem", padding: "8px" }}
+
       />
       <br />
       <button

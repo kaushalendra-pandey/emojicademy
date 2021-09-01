@@ -33,8 +33,10 @@ export default function AnswerSection({
         })}
       </div>
       {showAnswer && (
-        <p>
-          {" "}
+        <p
+        className="answer"
+        >
+         
           {emojiDB[emoji] === undefined
             ? "No such emoji in our DB"
             : emojiDB[emoji]}{" "}

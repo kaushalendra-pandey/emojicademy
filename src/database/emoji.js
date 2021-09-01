@@ -2,7 +2,7 @@ export const emojiDB = {
   "😂": "laughing",
   "😎": "Thug-life",
   "😑": "expression-less",
-  "🙄": "laughing",
+  "🙄": "thinking",
   "😏": "Whatever",
   "🤗": "Its not a big deal",
   "😌": "inner-peace",
