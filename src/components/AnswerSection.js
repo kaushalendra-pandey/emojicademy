@@ -37,7 +37,8 @@ export default function AnswerSection({
         className="answer"
         >
          
-          {emojiDB[emoji] === undefined
+          {emoji === "" ? "Please enter a emoji" : 
+            emojiDB[emoji] === undefined
             ? "No such emoji in our DB"
             : emojiDB[emoji]}{" "}
         </p>
